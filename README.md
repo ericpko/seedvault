@@ -2,6 +2,26 @@
 
 Secure offline encryption tool for BIP39 and SLIP39 seed phrases.
 
+## Description
+
+SeedVault allows you to encrypt your cryptocurrency seed phrases with a strong password, creating an encrypted file that can be safely stored in cloud storage platforms (Google Drive, Dropbox, iCloud, etc.) as a backup to your physical storage methods.
+
+### Why Use SeedVault?
+
+**The Problem**: You need backups of your seed phrase, but storing plaintext seed phrases in cloud storage is extremely dangerous. If your account is compromised or a cloud provider has a data breach, your funds are at risk.
+
+**The Solution**: Encrypt your seed phrase with SeedVault before backing it up to the cloud. Even if someone gains access to the encrypted file, they cannot recover your seed phrase without your password.
+
+### Typical Use Case
+
+1. **Encrypt** your seed phrase on an offline/air-gapped computer using a strong password
+2. **Store** the resulting encrypted file in multiple cloud storage platforms (Dropbox, Google Drive, etc.)
+3. **Keep** your password separate and secure (memorize it, or store it separately from the encrypted file)
+4. **Maintain** physical backups as your primary storage (metal plates, paper in safes)
+5. **Use** cloud-stored encrypted files as an additional backup layer for disaster recovery
+
+This way, you get the convenience and redundancy of cloud backups without the risk of exposing your seed phrase.
+
 ## Features
 
 - ✅ ChaCha20-Poly1305 authenticated encryption
